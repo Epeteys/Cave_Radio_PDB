@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Cave_Radio_PDB")(type "KiCad")(uri "${KIPRJMOD}/Cave_Radio_PDB.pretty")(options "")(descr ""))
+)
