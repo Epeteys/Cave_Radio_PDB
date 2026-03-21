@@ -618,6 +618,14 @@
     [
       "925ec001-c1c1-4fd8-a97e-de5f284bf8c5",
       "Root"
+    ],
+    [
+      "1f82ca21-8861-422e-9ac4-0f34a35c88b0",
+      "Power"
+    ],
+    [
+      "9ac06b2f-7fa7-45a2-86b4-5b8a8e732db1",
+      "USB"
     ]
   ],
   "text_variables": {}
