@@ -6,7 +6,7 @@
 	(descr "Texas REF0038A WQFN, 38 Pin, 2EP (https://www.ti.com/lit/ds/symlink/tps25730.pdf#page=68)")
 	(tags "Texas Instruments WQFN NoLead")
 	(property "Reference" "REF**"
-		(at 0 -3 0)
+		(at 0 -3.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a3caba2e-a426-4cf7-9626-d6cdb4613ff6")
@@ -108,97 +108,28 @@
 		(layer "F.Mask")
 		(uuid "c30b28c1-5ddb-4638-a4ff-c233a51ee9e2")
 	)
-	(fp_line
-		(start -3.11 -1.36)
-		(end -3.11 -1.87)
+	(fp_rect
+		(start -3.4 -2.4)
+		(end 3.4 2.4)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type default)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "18a4cfd9-0884-483f-8d51-beeb3cbb591c")
-	)
-	(fp_line
-		(start -3.11 2.11)
-		(end -3.11 1.36)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "88332e70-6fba-4f8d-998c-562252c5d372")
-	)
-	(fp_line
-		(start -3.11 2.11)
-		(end -2.76 2.11)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "fbdef31b-63f1-4685-9c43-6059024deb4b")
-	)
-	(fp_line
-		(start -2.76 -2.11)
-		(end -2.81 -2.11)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "b95f047e-a27e-4aa3-b15b-abfda84201c4")
-	)
-	(fp_line
-		(start 2.76 -2.11)
-		(end 3.11 -2.11)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "f8c7940a-14a6-43b5-8487-b1f18eb769ee")
-	)
-	(fp_line
-		(start 2.76 2.11)
-		(end 3.11 2.11)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "56e645ae-7507-4c4f-8085-a2e73741c0d8")
-	)
-	(fp_line
-		(start 3.11 -1.51)
-		(end 3.11 -2.11)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7e1df801-8829-4090-a98a-7fa3ae259430")
-	)
-	(fp_line
-		(start 3.11 2.11)
-		(end 3.11 1.51)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "9cbc0f68-b495-45b8-87be-16cbbdd5ab84")
+		(uuid "a4b1b6d2-7fbd-445a-9de7-0a2ce19ab28e")
 	)
 	(fp_poly
 		(pts
-			(xy -3.11 -2.11) (xy -3.35 -2.44) (xy -2.87 -2.44) (xy -3.11 -2.11)
+			(xy -2.8 -2.4) (xy -3.4 -1.8) (xy -3.4 -2.4)
 		)
 		(stroke
-			(width 0.12)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "86ccfd34-b6c4-46bc-b350-6e2a1ad3d000")
+		(uuid "eef5eded-dce9-41ca-a780-57ae61d40267")
 	)
 	(fp_poly
 		(pts
