@@ -5399,7 +5399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 223.8248 132.08 0)
 			(effects
 				(font
@@ -5469,7 +5469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 143.2052 93.98 0)
 			(effects
 				(font
@@ -5605,7 +5605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 133.096 237.744 90)
 			(effects
 				(font
@@ -5675,7 +5675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 340.106 197.104 90)
 			(effects
 				(font
@@ -6014,7 +6014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 321.056 197.104 90)
 			(effects
 				(font
@@ -6168,7 +6168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CONN_TSW-102-S_SAI"
 			(at 214.63 96.52 0)
 			(effects
 				(font
@@ -6371,7 +6371,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CONN_TSW-102-S_SAI"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -6439,7 +6439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 324.104 136.144 90)
 			(effects
 				(font
@@ -6642,7 +6642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CONN_TSW-102-S_SAI"
 			(at 208.28 232.41 0)
 			(effects
 				(font
@@ -6913,7 +6913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 254.3048 132.08 0)
 			(effects
 				(font
@@ -6984,7 +6984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 239.0648 132.08 0)
 			(effects
 				(font
@@ -7189,7 +7189,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 327.914 144.526 90)
 			(effects
 				(font
@@ -7326,7 +7326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 153.416 237.744 90)
 			(effects
 				(font
@@ -7464,7 +7464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 340.106 209.804 90)
 			(effects
 				(font
@@ -7534,7 +7534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 166.37 227.33 0)
 			(effects
 				(font
@@ -7622,7 +7622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 352.806 157.734 90)
 			(effects
 				(font
@@ -7758,7 +7758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CONN_TSW-102-S_SAI"
 			(at 205.74 219.71 0)
 			(effects
 				(font
@@ -7896,7 +7896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CINCH_SS-52100-001"
 			(at 345.44 143.51 0)
 			(effects
 				(font
@@ -8109,7 +8109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 185.166 217.424 90)
 			(effects
 				(font
@@ -8179,7 +8179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 195.326 219.964 90)
 			(effects
 				(font
@@ -8250,7 +8250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 208.5848 132.08 0)
 			(effects
 				(font
@@ -8320,7 +8320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 195.2752 151.13 0)
 			(effects
 				(font
@@ -8456,7 +8456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 321.056 209.804 90)
 			(effects
 				(font
@@ -8591,7 +8591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CONN6_S6B-PH_JST"
 			(at 359.41 97.79 0)
 			(effects
 				(font
@@ -8872,7 +8872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 147.0152 128.27 0)
 			(effects
 				(font
@@ -8942,7 +8942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 143.256 237.744 90)
 			(effects
 				(font
@@ -9079,7 +9079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 204.216 91.694 90)
 			(effects
 				(font
@@ -9457,7 +9457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 154.6352 214.63 0)
 			(effects
 				(font
@@ -9662,7 +9662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 210.5152 153.67 0)
 			(effects
 				(font
@@ -9732,7 +9732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 133.0452 125.73 0)
 			(effects
 				(font
@@ -9936,7 +9936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 181.356 237.744 90)
 			(effects
 				(font

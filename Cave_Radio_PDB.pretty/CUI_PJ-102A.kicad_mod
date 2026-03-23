@@ -1,0 +1,232 @@
+(footprint "CUI_PJ-102A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.082755 -11.664195 0)
+		(layer "F.SilkS")
+		(uuid "95d24052-bbbc-4ce2-93b2-e1cc97ee1023")
+		(effects
+			(font
+				(size 1.002512 1.002512)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CUI_PJ-102A"
+		(at 1.16559 5.24028 0)
+		(layer "F.Fab")
+		(uuid "5d2fcf6d-a256-48f3-9889-eb4b4abb012d")
+		(effects
+			(font
+				(size 1.002488 1.002488)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc607aca-cdee-479f-b508-2788d39c2f64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c465a0bb-c558-47c4-92f3-ab8bd9d322e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 -10.7)
+		(end -4.5 -1.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5be3e275-e3cc-4327-855c-ae3e42dcf4e0")
+	)
+	(fp_line
+		(start -4.5 -10.7)
+		(end 4.5 -10.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14e5aa85-bb5f-430a-aa5a-11aa2f9a42a5")
+	)
+	(fp_line
+		(start -4.5 1.75)
+		(end -4.5 3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e561a1f-42c6-4bf2-887d-dca8279639ab")
+	)
+	(fp_line
+		(start -4.5 3.7)
+		(end -1.75 3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9e02f05-a7b0-4805-9c21-de9e4e58258d")
+	)
+	(fp_line
+		(start 4.5 -10.7)
+		(end 4.5 3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21d0c927-897c-440b-9b6c-2245f6d78ba9")
+	)
+	(fp_line
+		(start 4.5 3.7)
+		(end 1.75 3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8730e14-bd0f-4a38-90be-af4b0f2b4d07")
+	)
+	(fp_line
+		(start -6 -11)
+		(end -6 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "318d9f8d-f2ac-4d74-938d-326db774a867")
+	)
+	(fp_line
+		(start -6 4.5)
+		(end 4.75 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68401b81-e7a9-49fa-9d31-f672f21f9b84")
+	)
+	(fp_line
+		(start 4.75 -11)
+		(end -6 -11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b761422-cf39-4000-8655-4ca334112c41")
+	)
+	(fp_line
+		(start 4.75 4.5)
+		(end 4.75 -11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "90673302-61dc-4843-ba41-fbd531e98035")
+	)
+	(fp_line
+		(start -4.5 -10.7)
+		(end 4.5 -10.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa703011-5968-4735-9f41-cfbeeae49707")
+	)
+	(fp_line
+		(start -4.5 3.7)
+		(end -4.5 -10.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9daf909-3697-412e-b825-7352ed8eaa9b")
+	)
+	(fp_line
+		(start -4.5 3.7)
+		(end 4.5 3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a946ef2d-f5dc-4a6b-bb33-b2321b774a23")
+	)
+	(fp_line
+		(start 4.5 3.7)
+		(end 4.5 -10.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "247d1519-8031-41c5-9b36-9eae074fa160")
+	)
+	(pad "1" thru_hole oval
+		(at 0 3)
+		(size 3.016 1.508)
+		(drill oval 1.6 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bb62b2c4-f9dd-484d-9324-aa14ffd76e23")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -3)
+		(size 3.016 1.508)
+		(drill oval 1.6 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7fd3ed65-5eaf-4d7c-940f-55fbab478667")
+	)
+	(pad "3" thru_hole oval
+		(at -4.7 0)
+		(size 1.508 3.016)
+		(drill oval 1 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a4b1c92b-8bc4-41de-9681-daa9e2b250ec")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/evanp/Downloads/PJ-102A/PJ-102A.step"
+		(offset
+			(xyz 0 3.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

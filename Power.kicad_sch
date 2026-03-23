@@ -322,6 +322,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Cave_Radio_PDB:10k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10k_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Cave_Radio_PDB:10uF"
 			(pin_numbers
 				(hide yes)
@@ -1970,6 +2143,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Cave_Radio_PDB:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Cave_Radio_PDB:LMR51450FNDRR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2294,6 +2609,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Cave_Radio_PDB:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Cave_Radio_PDB:TLV75533PDRV"
 			(pin_names
 				(offset 0.254)
@@ -2500,6 +2922,268 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Cave_Radio_PDB:TPS259472LRPWR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.858 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS259472LRPWR"
+				(at 1.016 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
+				(at -1.27 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps25925.pdf"
+				(at -3.048 -21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5V/12V eFuse Protection Switch (VSON-10)"
+				(at -1.016 -31.242 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "efuse protection switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VSON*1EP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS259472LRPWR_0_1"
+				(rectangle
+					(start -8.89 16.51)
+					(end 8.89 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS259472LRPWR_1_1"
+				(pin power_in line
+					(at -11.43 13.97 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 8.89 0)
+					(length 2.54)
+					(name "EN/UVLO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "OVCSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "ITIMER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -6.35 0)
+					(length 2.54)
+					(name "DVDT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 13.97 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 8.89 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "PGTH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "ILM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3098,6 +3782,18 @@
 		(uuid 199dfe76-c807-45bb-b855-436047bfe575)
 	)
 	(rectangle
+		(start 100.33 38.1)
+		(end 281.94 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d4ff2dcf-44b8-4f54-a13d-ad5e7210fc45)
+	)
+	(rectangle
 		(start 100.33 130.81)
 		(end 281.94 176.53)
 		(stroke
@@ -3144,6 +3840,18 @@
 			)
 		)
 		(uuid "787b2327-d0a7-45d3-9827-68bc1e3823f1")
+	)
+	(text "VBATT Efuse"
+		(exclude_from_sim no)
+		(at 271.78 35.814 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "aeb6734e-1688-451a-a622-1b44f66845f7")
 	)
 	(text "9V Out Jack"
 		(exclude_from_sim no)
@@ -3274,6 +3982,12 @@
 		(uuid "3c83d355-9b64-45ee-af4f-77396a0c0432")
 	)
 	(junction
+		(at 195.58 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fc5f7cd-490c-468c-848c-e5a7548ebd0d")
+	)
+	(junction
 		(at 199.39 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3320,6 +4034,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5671ba0e-6631-4baf-8c29-979f0e28e94e")
+	)
+	(junction
+		(at 205.74 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64b688b3-c3b2-4a69-bca3-c7d4166d551c")
 	)
 	(junction
 		(at 199.39 209.55)
@@ -3440,6 +4160,16 @@
 			(type default)
 		)
 		(uuid "03c965db-9f23-4439-aaa7-8a1fcc7e593b")
+	)
+	(wire
+		(pts
+			(xy 231.14 66.04) (xy 195.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046fd26d-5870-43cd-ac00-6be6386a133d")
 	)
 	(wire
 		(pts
@@ -3583,6 +4313,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 66.04) (xy 254 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1974bd96-3358-4066-b9cc-6c13d323bbf8")
+	)
+	(wire
+		(pts
 			(xy 270.51 208.28) (xy 270.51 209.55)
 		)
 		(stroke
@@ -3693,6 +4433,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 64.77) (xy 259.08 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffd1e5c-88bf-454d-922e-c8739e7fe3ca")
+	)
+	(wire
+		(pts
 			(xy 232.41 209.55) (xy 220.98 209.55)
 		)
 		(stroke
@@ -3760,6 +4510,16 @@
 			(type default)
 		)
 		(uuid "38440390-a3a8-4855-aea3-5eee35c327c3")
+	)
+	(wire
+		(pts
+			(xy 143.51 90.17) (xy 143.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aad6dfd-ab49-445d-b8f5-5de288edb4df")
 	)
 	(wire
 		(pts
@@ -3843,6 +4603,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 66.04) (xy 195.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b56ecce-392d-476a-938d-9453c15a729d")
+	)
+	(wire
+		(pts
 			(xy 313.69 152.4) (xy 313.69 151.13)
 		)
 		(stroke
@@ -3850,6 +4620,16 @@
 			(type default)
 		)
 		(uuid "5cc3cca3-13c7-4d00-af61-8cee1160e9e2")
+	)
+	(wire
+		(pts
+			(xy 205.74 71.12) (xy 204.47 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da6e873-36d0-47b1-b00a-3eba11bcc9bb")
 	)
 	(wire
 		(pts
@@ -3960,6 +4740,16 @@
 			(type default)
 		)
 		(uuid "758a870c-d59e-4d54-9fb4-f0f2e655126d")
+	)
+	(wire
+		(pts
+			(xy 195.58 71.12) (xy 196.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ee78aa-d26d-413c-8335-080bf2bb71a0")
 	)
 	(wire
 		(pts
@@ -4273,6 +5063,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 77.47) (xy 205.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69a9b27-c0e7-4f11-9399-bc080f719c04")
+	)
+	(wire
+		(pts
 			(xy 199.39 219.71) (xy 199.39 218.44)
 		)
 		(stroke
@@ -4363,6 +5163,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 71.12) (xy 205.74 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87f203e-6362-4925-86ff-3a4e221609ec")
+	)
+	(wire
+		(pts
 			(xy 257.81 142.24) (xy 257.81 143.51)
 		)
 		(stroke
@@ -4393,6 +5203,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 66.04) (xy 195.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a91cd1-9759-4986-9bd4-ed9c22bff834")
+	)
+	(wire
+		(pts
 			(xy 199.39 209.55) (xy 194.31 209.55)
 		)
 		(stroke
@@ -4420,6 +5240,16 @@
 			(type default)
 		)
 		(uuid "e6439ccc-8ae9-4745-a9ac-1de9ee6ef8db")
+	)
+	(wire
+		(pts
+			(xy 205.74 71.12) (xy 231.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c4c6bc-ffd1-40bc-a684-b3db482e740f")
 	)
 	(wire
 		(pts
@@ -4510,6 +5340,74 @@
 			(type default)
 		)
 		(uuid "ff892833-f9e6-4699-bd2f-9887f5331ef1")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d67927-3f4f-4232-9ab9-37946321486d")
+		(property "Reference" "#PWR065"
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f63c3f4d-7bac-4c9c-8ea1-8fa2b67881e5")
+		)
+		(instances
+			(project "Cave_Radio_PDB"
+				(path "/925ec001-c1c1-4fd8-a97e-de5f284bf8c5/1f82ca21-8861-422e-9ac4-0f34a35c88b0"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -4672,7 +5570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CAP_C3225X5R1C226M250AA"
 			(at 233.3752 218.44 0)
 			(effects
 				(font
@@ -5019,6 +5917,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Cave_Radio_PDB:MountingHole_Pad")
+		(at 144.78 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c5c36c4-bf87-492a-a14b-002169081f0b")
+		(property "Reference" "H5"
+			(at 143.51 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 143.51 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cave_Radio_PDB:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "749551bc-bdf3-4d11-aac6-dfba15c8b5f0")
+		)
+		(instances
+			(project "Cave_Radio_PDB"
+				(path "/925ec001-c1c1-4fd8-a97e-de5f284bf8c5/1f82ca21-8861-422e-9ac4-0f34a35c88b0"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Cave_Radio_PDB:22uF")
 		(at 232.41 147.32 0)
 		(unit 1)
@@ -5046,7 +6009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CAP_C3225X5R1C226M250AA"
 			(at 233.3752 151.13 0)
 			(effects
 				(font
@@ -5183,7 +6146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 136.8552 218.44 0)
 			(effects
 				(font
@@ -5320,7 +6283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 182.5752 217.17 0)
 			(effects
 				(font
@@ -5390,7 +6353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 221.996 214.884 90)
 			(effects
 				(font
@@ -5863,7 +6826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 144.526 157.734 90)
 			(effects
 				(font
@@ -5973,6 +6936,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Cave_Radio_PDB:Conn_01x02")
+		(at 210.82 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49b3ccfb-84ac-4074-bcc0-165e84719c43")
+		(property "Reference" "J8"
+			(at 213.868 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 218.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cave_Radio_PDB:CONN_TSW-102-S_SAI"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23040e10-a583-4fae-b926-b06fbbededb6")
+		)
+		(pin "2"
+			(uuid "b5b8a7b8-51c5-4108-9303-1b6328ee2f6b")
+		)
+		(instances
+			(project "Cave_Radio_PDB"
+				(path "/925ec001-c1c1-4fd8-a97e-de5f284bf8c5/1f82ca21-8861-422e-9ac4-0f34a35c88b0"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Cave_Radio_PDB:9.76k")
 		(at 199.39 224.79 0)
 		(unit 1)
@@ -6000,7 +7030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 200.406 225.044 90)
 			(effects
 				(font
@@ -6070,7 +7100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CAP_C3225X5R1C226M250AA"
 			(at 258.7752 218.44 0)
 			(effects
 				(font
@@ -6208,7 +7238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 182.5752 149.86 0)
 			(effects
 				(font
@@ -6245,6 +7275,73 @@
 			(project "Cave_Radio_PDB"
 				(path "/925ec001-c1c1-4fd8-a97e-de5f284bf8c5/1f82ca21-8861-422e-9ac4-0f34a35c88b0"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cave_Radio_PDB:MountingHole_Pad")
+		(at 143.51 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58ce1763-f614-4222-b549-40be364d5e8d")
+		(property "Reference" "H6"
+			(at 146.05 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 146.05 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Cave_Radio_PDB:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abe5e914-e11b-4695-8568-b921a0874483")
+		)
+		(instances
+			(project "Cave_Radio_PDB"
+				(path "/925ec001-c1c1-4fd8-a97e-de5f284bf8c5/1f82ca21-8861-422e-9ac4-0f34a35c88b0"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -6318,6 +7415,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Cave_Radio_PDB:TPS259472LRPWR")
+		(at 242.57 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c24d4fd-0d58-44e6-b52c-a40881c60c31")
+		(property "Reference" "U8"
+			(at 242.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS259472LRPWR"
+			(at 242.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
+			(at 241.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps25925.pdf"
+			(at 239.522 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V/12V eFuse Protection Switch (VSON-10)"
+			(at 241.554 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef1a10f6-74a1-45a5-ab81-214a5bdb787f")
+		)
+		(pin "10"
+			(uuid "0c209939-7ddc-494c-8d22-5367eacfc53a")
+		)
+		(pin "6"
+			(uuid "517f13f6-0fad-48dd-a439-2933e917f822")
+		)
+		(pin "7"
+			(uuid "ca411e1c-5ffe-4aaf-a1d4-45fa15e4c158")
+		)
+		(pin "8"
+			(uuid "5570e8ee-8017-4a6b-93c3-f383c2d64d63")
+		)
+		(pin "2"
+			(uuid "0f38d810-bd3d-4e81-889d-35ddfed2f8fd")
+		)
+		(pin "4"
+			(uuid "e24fb968-5fea-4011-957a-a899821ad305")
+		)
+		(pin "5"
+			(uuid "ae61cdb4-69a1-46f3-9a08-1af343394c8f")
+		)
+		(pin "9"
+			(uuid "f9ddba6c-f613-4325-b58c-34fba7a8de4d")
+		)
+		(pin "3"
+			(uuid "3ad5b881-497e-4b33-93c0-c3dd59965480")
+		)
+		(instances
+			(project "Cave_Radio_PDB"
+				(path "/925ec001-c1c1-4fd8-a97e-de5f284bf8c5/1f82ca21-8861-422e-9ac4-0f34a35c88b0"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 259.08 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ed43b24-051e-4f09-ae8f-30a9d20b50e2")
+		(property "Reference" "#PWR064"
+			(at 259.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBATT"
+			(at 259.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 259.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4b55ff4-5ce6-4316-a724-53704e9d2470")
+		)
+		(instances
+			(project "Cave_Radio_PDB"
+				(path "/925ec001-c1c1-4fd8-a97e-de5f284bf8c5/1f82ca21-8861-422e-9ac4-0f34a35c88b0"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Cave_Radio_PDB:22uF")
 		(at 123.19 147.32 0)
 		(unit 1)
@@ -6345,7 +7601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CAP_C3225X5R1C226M250AA"
 			(at 124.1552 151.13 0)
 			(effects
 				(font
@@ -6481,7 +7737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CAP_C3225X5R1C226M250AA"
 			(at 258.7752 151.13 0)
 			(effects
 				(font
@@ -6618,7 +7874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 221.996 147.574 90)
 			(effects
 				(font
@@ -6688,7 +7944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 350.2152 151.13 0)
 			(effects
 				(font
@@ -6756,7 +8012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:IND_SPR5050_BRN-M"
 			(at 190.5 209.55 0)
 			(effects
 				(font
@@ -6826,7 +8082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 200.406 214.884 90)
 			(effects
 				(font
@@ -7066,7 +8322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CAP_C3225X5R1C226M250AA"
 			(at 124.1552 218.44 0)
 			(effects
 				(font
@@ -7136,7 +8392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CAP_C3225X5R1C226M250AA"
 			(at 246.0752 218.44 0)
 			(effects
 				(font
@@ -7179,6 +8435,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 143.51 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a8910e6-0530-4d66-ae2c-0710e5b0c434")
+		(property "Reference" "#PWR071"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f288b36c-18cf-493b-9a78-33cc1555dde7")
+		)
+		(instances
+			(project "Cave_Radio_PDB"
+				(path "/925ec001-c1c1-4fd8-a97e-de5f284bf8c5/1f82ca21-8861-422e-9ac4-0f34a35c88b0"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Cave_Radio_PDB:10uF")
 		(at 313.69 147.32 0)
 		(unit 1)
@@ -7206,7 +8529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 314.6552 151.13 0)
 			(effects
 				(font
@@ -7344,7 +8667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CAP_C3225X5R1C226M250AA"
 			(at 111.4552 151.13 0)
 			(effects
 				(font
@@ -7745,7 +9068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:IND_SPR5050_BRN-M"
 			(at 190.5 142.24 0)
 			(effects
 				(font
@@ -7815,7 +9138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CAP_C3225X5R1C226M250AA"
 			(at 271.4752 151.13 0)
 			(effects
 				(font
@@ -7883,7 +9206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 215.9 151.4348 0)
 			(effects
 				(font
@@ -8088,7 +9411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 136.8552 151.13 0)
 			(effects
 				(font
@@ -8158,7 +9481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 144.526 225.044 90)
 			(effects
 				(font
@@ -8262,6 +9585,74 @@
 			(project "Cave_Radio_PDB"
 				(path "/925ec001-c1c1-4fd8-a97e-de5f284bf8c5/1f82ca21-8861-422e-9ac4-0f34a35c88b0"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cave_Radio_PDB:10k")
+		(at 200.66 71.12 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8b80548-d047-4823-93d4-604f7db6ed22")
+		(property "Reference" "R23"
+			(at 199.644 73.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 199.644 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
+			(at 200.914 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 200.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9da7ba35-f690-4fd2-beb7-210eeb0256d5")
+		)
+		(pin "1"
+			(uuid "6bce56b7-f9d7-432b-9953-ffcfc938d451")
+		)
+		(instances
+			(project "Cave_Radio_PDB"
+				(path "/925ec001-c1c1-4fd8-a97e-de5f284bf8c5/1f82ca21-8861-422e-9ac4-0f34a35c88b0"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8379,7 +9770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CAP_C3225X5R1C226M250AA"
 			(at 271.4752 218.44 0)
 			(effects
 				(font
@@ -8516,7 +9907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CAP_C3225X5R1C226M250AA"
 			(at 111.4552 218.44 0)
 			(effects
 				(font
@@ -8586,7 +9977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 200.406 157.734 90)
 			(effects
 				(font
@@ -8723,7 +10114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 200.406 147.574 90)
 			(effects
 				(font
@@ -8793,7 +10184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CAP_C3225X5R1C226M250AA"
 			(at 246.0752 151.13 0)
 			(effects
 				(font
@@ -8861,7 +10252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 215.9 218.7448 0)
 			(effects
 				(font
@@ -8932,7 +10323,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CUI_PJ-102A"
 			(at 336.55 221.996 0)
 			(effects
 				(font
