@@ -1,14 +1,14 @@
-(footprint "C_0402_1005Metric"
+(footprint "R_0603_1608Metric"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-	(tags "capacitor")
+	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "resistor")
 	(property "Reference" "REF**"
-		(at 0 -1.16 0)
+		(at 0 -1.43 0)
 		(layer "F.SilkS")
-		(uuid "5e36a4e5-9523-44ef-af98-64f6f6bb2048")
+		(uuid "0c3b08de-11c5-430c-b2ee-119ad7ddbf97")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "C_0402_1005Metric"
-		(at 0 1.16 0)
+	(property "Value" "R_0603_1608Metric"
+		(at 0 1.43 0)
 		(layer "F.Fab")
-		(uuid "adeea7fa-0c71-4959-9763-03576df5b0a5")
+		(uuid "fd13c6c0-bb2d-495d-a8b7-ac683d4c7c9d")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c593e142-b83e-44fa-ab27-7cfd27110207")
+		(uuid "33fcc1c8-6c7e-4bd3-9f52-e9b5c63c91b9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dc45f5b6-a14e-4e62-a6e5-f00fc7c7a676")
+		(uuid "044cd3e8-b978-41e0-8511-7a93be9127eb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,65 +53,65 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -0.925 -0.475)
-		(end 0.925 0.475)
+		(start -1.5 -0.75)
+		(end 1.5 0.75)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "019173d0-57a8-47cb-a132-4af92bf379f0")
+		(uuid "07066ad4-1592-405e-809e-f761ac989997")
 	)
 	(fp_rect
-		(start -0.91 -0.46)
-		(end 0.91 0.46)
+		(start -1.48 -0.73)
+		(end 1.48 0.73)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "38d96b39-ffb1-429b-9846-fd63de6cb0ca")
+		(uuid "52611192-4399-4702-9136-f9deeb369abc")
 	)
 	(fp_rect
-		(start -0.5 -0.25)
-		(end 0.5 0.25)
+		(start -0.8 -0.4125)
+		(end 0.8 0.4125)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e6aab63d-c7b6-4670-9921-2f136205688e")
+		(uuid "b56da1a7-4f46-444d-8f93-cb9a399c9691")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "7fbbefa5-52c8-49fe-a726-a9ac3a06bccf")
+		(uuid "03dd2063-d296-4a93-b1f5-36dfa544300a")
 		(effects
 			(font
-				(size 0.25 0.25)
-				(thickness 0.04)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.48 0)
-		(size 0.56 0.62)
+		(at -0.825 0)
+		(size 0.8 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "ea217f7e-4481-4188-8cf1-e977691ff2fb")
+		(uuid "cc2d8c6a-14b2-4657-8112-da653a4f8c01")
 	)
 	(pad "2" smd roundrect
-		(at 0.48 0)
-		(size 0.56 0.62)
+		(at 0.825 0)
+		(size 0.8 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "1d162598-49af-43ea-8dc5-7171a04ff11e")
+		(uuid "b5275c9a-3674-4daf-9a67-e4b8904d5cb3")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

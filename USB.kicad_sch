@@ -5385,7 +5385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 210.5152 153.67 0)
 			(effects
 				(font
@@ -5594,7 +5594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
+		(property "Footprint" "Cave_Radio_PDB:R_0603_1608Metric"
 			(at 143.2052 93.98 0)
 			(effects
 				(font
@@ -6208,7 +6208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Cave_Radio_PDB:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
 			(at 278.13 140.97 0)
 			(effects
 				(font
@@ -6363,7 +6363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 195.2752 151.13 0)
 			(effects
 				(font
@@ -6702,7 +6702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:CONN_TSW-103-S_SAI"
 			(at 342.9 146.05 0)
 			(effects
 				(font
@@ -7112,7 +7112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
+		(property "Footprint" "Cave_Radio_PDB:R_0603_1608Metric"
 			(at 254.3048 132.08 0)
 			(effects
 				(font
@@ -7183,7 +7183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
+		(property "Footprint" "Cave_Radio_PDB:R_0603_1608Metric"
 			(at 239.0648 132.08 0)
 			(effects
 				(font
@@ -7886,7 +7886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB4110GFA:GCT_USB4110GFA"
+		(property "Footprint" "Cave_Radio_PDB:GCT_USB4110GFA"
 			(at 360.426 68.072 0)
 			(effects
 				(font
@@ -8744,7 +8744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
+		(property "Footprint" "Cave_Radio_PDB:R_0603_1608Metric"
 			(at 147.0152 128.27 0)
 			(effects
 				(font
@@ -9019,7 +9019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_REF0038A_WQFN-38-2EP_6x4mm_P0.4"
+		(property "Footprint" "Cave_Radio_PDB:Texas_REF0038A_WQFN-38-2EP_6x4mm_P0.4"
 			(at 175.26 175.26 0)
 			(effects
 				(font
@@ -9184,7 +9184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
+		(property "Footprint" "Cave_Radio_PDB:SOT-553"
 			(at 328.93 97.79 0)
 			(effects
 				(font
@@ -9601,7 +9601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
+		(property "Footprint" "Cave_Radio_PDB:R_0603_1608Metric"
 			(at 133.0452 125.73 0)
 			(effects
 				(font

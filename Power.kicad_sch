@@ -4193,26 +4193,6 @@
 		)
 		(uuid "914f34f6-35a4-430b-b67a-ea8d90395209")
 	)
-	(text_box "The LMR51450SDRRR is a drop in replacement that will increase efficiency slightly, for 5V this means about 3% improvement during USB charging to about 20% while not, no consequence other than bom consolidation. More importantly, the swap will increase 9V rail efficiency during radio recieve by about 20%, but spread spectrum switching may significantly increase receiver noise, test to investigate."
-		(exclude_from_sim no)
-		(at 143.51 251.46 0)
-		(size 63.5 16.51)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "958e1bd9-a3e2-4a0f-bde6-c2ea86992de0")
-	)
 	(text_box "C3225X5R1C226M250AA"
 		(exclude_from_sim no)
 		(at 220.98 254 0)
@@ -6478,7 +6458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:R_0402_1005Metric"
 			(at 261.366 86.614 90)
 			(effects
 				(font
@@ -7667,7 +7647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 218.1352 99.06 0)
 			(effects
 				(font
@@ -8149,7 +8129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
 			(at 205.4352 99.06 0)
 			(effects
 				(font
@@ -8421,7 +8401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
+		(property "Footprint" "Cave_Radio_PDB:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
 			(at 232.41 96.52 0)
 			(effects
 				(font
@@ -8993,7 +8973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
+		(property "Footprint" "Cave_Radio_PDB:R_0603_1608Metric"
 			(at 350.2152 151.13 0)
 			(effects
 				(font
@@ -9441,7 +9421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOD-323_1P8X1P35_ONS"
+		(property "Footprint" "Cave_Radio_PDB:SOD-323_1P8X1P35_ONS"
 			(at 277.876 79.756 0)
 			(effects
 				(font
@@ -9650,7 +9630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
+		(property "Footprint" "Cave_Radio_PDB:R_0603_1608Metric"
 			(at 314.6552 151.13 0)
 			(effects
 				(font
@@ -11008,7 +10988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Cave_Radio_PDB:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
 			(at 332.74 137.795 0)
 			(effects
 				(font
@@ -11505,7 +11485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Cave_Radio_PDB:C_0402_1005Metric"
+		(property "Footprint" "Cave_Radio_PDB:R_0603_1608Metric"
 			(at 143.2052 74.93 0)
 			(effects
 				(font
