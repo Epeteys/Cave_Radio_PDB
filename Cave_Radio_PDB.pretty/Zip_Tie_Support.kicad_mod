@@ -1,0 +1,82 @@
+(footprint "Zip_Tie_Support"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Zip_Tie_Support")
+	(tags "mountinghole M3 ISO14580")
+	(property "Reference" "REF**"
+		(at 0 -3.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "66930141-d963-40e6-bad7-97a235ecd84d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Zip_Tie_Support"
+		(at 0 3.7 0)
+		(layer "F.Fab")
+		(uuid "f7043ba3-8793-4bfe-b022-42e1ad458622")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/805/PPC_Diamond_Catalog.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "deb91412-96f1-474c-b404-f6138f46df83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e644dbbb-fccc-4d64-a8c6-b66ad26f84d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2643a7f7-af61-4f95-a751-b915065f9be3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0)
+		(size 1.5 3)
+		(drill oval 1.5 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "74d21bd4-4bbf-454f-ba11-375fe77daa06")
+	)
+	(pad "" np_thru_hole oval
+		(at 6 0)
+		(size 1.5 3)
+		(drill oval 1.5 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "26571355-f094-46a5-aa00-f9b3f5632331")
+	)
+	(embedded_fonts no)
+)

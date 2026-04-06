@@ -5,13 +5,13 @@
 	(layer "F.Cu")
 	(tags "SRP5050FA-6R8M ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -1.75 -3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9d8edd06-2aeb-4a9d-9d87-c70f14c29cc5")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.64 0.64)
 				(thickness 0.15)
 			)
 		)
@@ -300,4 +300,15 @@
 		(uuid "1708f58d-36ba-497f-82c6-2b97291f4560")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/evanp/Downloads/LIB_SRP5050FA-220M1/SRP5050FA-220M1/3D/SRP5050FA-220M1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

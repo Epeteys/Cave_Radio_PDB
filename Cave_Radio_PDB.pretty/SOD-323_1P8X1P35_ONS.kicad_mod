@@ -5,13 +5,13 @@
 	(layer "F.Cu")
 	(tags "NSR0340HT1G ")
 	(property "Reference" "REF**"
-		(at 0.025 -1.675 0)
+		(at -0.725 -1.575 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3e614ae9-b9f7-4f9f-a512-8c56efc4dfe6")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.64 0.64)
 				(thickness 0.15)
 			)
 		)
@@ -53,6 +53,17 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -2.1 -0.95)
+		(end -1.975 0.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "768aa796-390f-4783-bfa8-513ee2b16ae7")
+	)
 	(fp_rect
 		(start -1.975 -0.95)
 		(end 1.975 0.95)
@@ -325,29 +336,6 @@
 		(uuid "f169f5b1-344d-4f21-82f3-0960e74ce57e")
 	)
 	(fp_text user "*"
-		(at -2.05 1.7 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "2c3a467f-0991-4243-945e-95a1bb6da234")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.05 1.7 0)
-		(layer "F.SilkS")
-		(uuid "c7955fd4-db2f-4085-8faa-3241e2543b13")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
 		(at -0.6477 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -395,4 +383,15 @@
 		(uuid "6413db30-806b-4514-b74b-c6e84ff8db1a")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Cave_Radio_3D/NSR0340HT1G.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

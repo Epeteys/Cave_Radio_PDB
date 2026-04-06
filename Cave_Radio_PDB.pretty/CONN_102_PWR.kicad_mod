@@ -1,11 +1,11 @@
-(footprint "CONN_TSW-102-S_SAI"
+(footprint "CONN_102_PWR"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "TSW-102-07-S-S ")
 	(property "Reference" "REF**"
-		(at -0.025 -2.075 0)
+		(at -0.825 -2.625 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f7b005a8-9180-4351-b602-a737509ef284")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "CONN_TSW-102-S_SAI"
+	(property "Value" "CONN_102_PWR"
 		(at 1.27 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -54,8 +54,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.397 -1.397)
-		(end -1.397 1.397)
+		(start -1.925 -1.397)
+		(end -1.925 1.397)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -64,8 +64,8 @@
 		(uuid "016be419-97c2-450f-9912-ac9c553d549c")
 	)
 	(fp_line
-		(start -1.397 1.397)
-		(end 3.937 1.397)
+		(start -1.925 1.925)
+		(end 5.875 1.925)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -74,8 +74,8 @@
 		(uuid "29669097-6758-4336-9acb-0875a70afd7b")
 	)
 	(fp_line
-		(start 3.937 -1.397)
-		(end -1.397 -1.397)
+		(start 5.875 -1.925)
+		(end -1.925 -1.925)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -84,8 +84,8 @@
 		(uuid "52b141f0-45e3-48ea-8cc2-9b977a3e6b56")
 	)
 	(fp_line
-		(start 3.937 1.397)
-		(end 3.937 -1.397)
+		(start 5.875 1.925)
+		(end 5.875 -1.925)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -94,8 +94,8 @@
 		(uuid "042a1fac-f177-4d23-989b-70e76e13a030")
 	)
 	(fp_rect
-		(start -1.528 -1.397)
-		(end -1.397 1.397)
+		(start -2.056 -1.925)
+		(end -1.925 1.925)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "728f941f-8a2a-4fba-84af-46613b87c38a")
 	)
 	(fp_line
-		(start -1.524 -1.524)
-		(end -1.524 1.524)
+		(start -1.925 -1.524)
+		(end -1.925 1.524)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -115,8 +115,8 @@
 		(uuid "9d65039a-34fd-47ed-bac0-d02501f262f1")
 	)
 	(fp_line
-		(start -1.524 1.524)
-		(end 4.064 1.524)
+		(start -1.925 1.925)
+		(end 5.875 1.925)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "c3101bc1-8cb6-4422-81f8-08f68726edbb")
 	)
 	(fp_line
-		(start 4.064 -1.524)
-		(end -1.524 -1.524)
+		(start 5.875 -1.925)
+		(end -1.925 -1.925)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -135,8 +135,8 @@
 		(uuid "6b5d2d7a-6509-4084-a9c4-f8d94e3e7a94")
 	)
 	(fp_line
-		(start 4.064 1.524)
-		(end 4.064 -1.524)
+		(start 5.875 1.524)
+		(end 5.875 -1.524)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -209,19 +209,19 @@
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)
-		(size 1.524 1.524)
-		(drill 1.016)
+		(size 3 3)
+		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "dc629ca3-fc02-4a90-8794-a007e1a73e47")
+		(uuid "858a12f8-b6d4-470e-8b94-fb5d2f66a374")
 	)
 	(pad "2" thru_hole circle
-		(at 2.54 0)
-		(size 1.524 1.524)
-		(drill 1.016)
+		(at 3.937 0)
+		(size 3 3)
+		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "21f9fb6e-d227-477b-aca7-ff9b5e3596ac")
+		(uuid "773ab49f-10d4-4206-9a92-ff786cdd5ef2")
 	)
 	(embedded_fonts no)
 )

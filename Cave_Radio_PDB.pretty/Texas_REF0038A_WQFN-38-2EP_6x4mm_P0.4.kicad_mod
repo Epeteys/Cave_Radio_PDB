@@ -6,13 +6,13 @@
 	(descr "Texas REF0038A WQFN, 38 Pin, 2EP (https://www.ti.com/lit/ds/symlink/tps25730.pdf#page=68)")
 	(tags "Texas Instruments WQFN NoLead")
 	(property "Reference" "REF**"
-		(at 0 -3.2 0)
+		(at -2.15 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a3caba2e-a426-4cf7-9626-d6cdb4613ff6")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.64 0.64)
 				(thickness 0.15)
 			)
 		)
@@ -673,7 +673,7 @@
 		(uuid "59aba957-a0c2-4a29-aa91-80be64714bb2")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_REF0038A_WQFN-38-2EP_6x4mm_P0.4.step"
+	(model "${KIPRJMOD}/Cave_Radio_3D/TPS25751DREFR--3DModel-STEP-56544.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -681,7 +681,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

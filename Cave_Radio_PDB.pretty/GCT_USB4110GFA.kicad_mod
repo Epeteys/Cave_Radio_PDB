@@ -9,7 +9,7 @@
 		(uuid "60aea051-3afd-45b9-8856-a6a1175945ed")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.64 0.64)
 				(thickness 0.15)
 			)
 		)
@@ -329,4 +329,15 @@
 		(uuid "1cb1a87b-e68f-4aba-82e7-6109a9a10159")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/evanp/Downloads/USB4110GFA/USB4110GFA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

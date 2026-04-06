@@ -5,13 +5,13 @@
 	(layer "F.Cu")
 	(tags "TPS25970LRPWR ")
 	(property "Reference" "REF**"
-		(at 0.2 2.4 0)
+		(at -0.275 2.15 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1865d535-ad4b-4575-ab3c-5299d5942778")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.64 0.64)
 				(thickness 0.15)
 			)
 		)
@@ -144,6 +144,19 @@
 		(layer "F.Mask")
 		(uuid "e28c931f-91e7-436d-ae90-ee477011b6d6")
 	)
+	(fp_poly
+		(pts
+			(xy 1.204801 0.547594) (xy 0.595201 0.547594) (xy 0.595198 1.207999) (xy 0.849198 1.207999) (xy 0.849198 0.852399)
+			(xy 1.204801 0.852394)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "8c2380a5-fbe7-4d52-bea9-34558055a7b0")
+	)
 	(fp_rect
 		(start -1.5 -1.5)
 		(end 1.5 1.5)
@@ -205,6 +218,19 @@
 		(fill yes)
 		(layer "F.Paste")
 		(uuid "779e164a-05a7-48a6-bf35-e79038f41ba6")
+	)
+	(fp_poly
+		(pts
+			(xy 1.204801 0.547594) (xy 0.595201 0.547594) (xy 0.595198 1.207999) (xy 0.849198 1.207999) (xy 0.849198 0.852399)
+			(xy 1.204801 0.852394)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "6a65a829-0d93-4abd-aef2-fe2a0760b908")
 	)
 	(fp_line
 		(start -1.458801 -1.106394)
@@ -427,13 +453,13 @@
 	(pad "5" smd rect
 		(at -0.25 0)
 		(size 0.3556 2.3876)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "782bf336-b4fd-4419-80f9-3811e68d0d85")
 	)
 	(pad "6" smd rect
 		(at 0.25 0)
 		(size 0.3556 2.3876)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "918515da-45e9-4342-8e21-ed9eb29b6c05")
 	)
 	(pad "7" smd rect
@@ -461,4 +487,15 @@
 		(uuid "416a1bcf-70ee-4a23-bf0f-b5c65bf626d4")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Cave_Radio_3D/TPS259472LRPWR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

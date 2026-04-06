@@ -5,13 +5,13 @@
 	(layer "F.Cu")
 	(tags "S6B-PH-SM4-TB ")
 	(property "Reference" "REF**"
-		(at 0 3.452701 0)
+		(at -4.1 -4.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3e4fd22f-2bd5-4d82-b693-c43094056611")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.64 0.64)
 				(thickness 0.15)
 			)
 		)

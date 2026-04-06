@@ -6,12 +6,12 @@
 	(descr "VSON 10 Thermal on 11 3x3mm Pitch 0.5mm http://chip.tomsk.ru/chip/chipdoc.nsf/Package/D8A64DD165C2AAD9472579400024FC41!OpenDocument")
 	(tags "VSON 10 Thermal on 11 3x3mm Pitch 0.5mm")
 	(property "Reference" "REF**"
-		(at 0 -2.9 0)
+		(at -0.925 -2.8 0)
 		(layer "F.SilkS")
 		(uuid "273bc643-5475-4e72-9676-fe19c0126e63")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.64 0.64)
 				(thickness 0.15)
 			)
 		)
