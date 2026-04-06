@@ -5190,7 +5190,7 @@
 		(uuid "3da2478d-bdcb-46e5-9ad6-46330fd1f9b7")
 	)
 	(label "D-"
-		(at 334.01 146.05 0)
+		(at 334.01 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5220,7 +5220,7 @@
 		(uuid "7163f751-b44a-4bdc-a564-e41fb15a86a1")
 	)
 	(label "D+"
-		(at 334.01 143.51 0)
+		(at 334.01 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6513,15 +6513,15 @@
 	(symbol
 		(lib_id "Cave_Radio_PDB:Conn_01x03")
 		(at 342.9 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4ae78e92-4d14-4839-a82b-eb4c6df632d7")
 		(property "Reference" "J5"
-			(at 345.44 144.7799 0)
+			(at 345.44 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +6530,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 345.44 147.3199 0)
+			(at 345.44 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
