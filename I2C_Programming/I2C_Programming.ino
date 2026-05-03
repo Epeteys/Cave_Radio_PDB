@@ -1,5 +1,15 @@
+// I2C_Programming.ino
+// Arduino sketch to program a CAT24C256 EEPROM over I2C
+
+// Tested with ESP32 Dev kit (ESP32-WROOM-32E)
+// Works with a modified export from the Ti TPS25751 GUI,
+// Export a full flash binary as .c and modify to match 
+// example files (see QDX_PDB_2026-05-03_R2.h)
+
 #include <Wire.h>
-#include <QDX_PDB_2026-04-30_V1.h>
+// #include <QDX_PDB_2026-04-30_V1.h>
+// #include <QDX_PDB_2026-05-01_R1.h>
+#include <QDX_PDB_2026-05-03_R2.h>
 
 // CAT24C256 I2C address (A2=A1=A0=GND → 0x50)
 // Confirm against your schematic's A0/A1/A2 connections
